@@ -3,8 +3,7 @@
 
 return [
     'adminEmail' => 'admin@example.com',
-    'testEmail' => 'peng.shan@happyelements.com',
-    'siteUrl' => 'http://local.leaveyii2',
+    'siteUrl' => 'http://local.ssttoo',
 	'baseDir' => dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'smtp' => array (
 		'CharSet' => 'UTF-8',
@@ -12,7 +11,7 @@ return [
 		'SMTPSecure' => 'tls',
 		'Host' => 'smtp.office365.com',
 		'Port' => '587',
-		'Username' => 'leave_admin@happyelements.com',
+		'Username' => 'leave_admin@test.com',
 		'Password' => 'tlt1234$',
 	),
 	//正式环境设置为 0 
